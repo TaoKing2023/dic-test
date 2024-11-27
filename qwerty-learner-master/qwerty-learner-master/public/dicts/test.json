@@ -1,0 +1,203 @@
+const dictionary = [
+    {
+      name: "GDP",
+      trans: [
+        "n. 国内生产总值，指国家或地区在一定时期内生产的所有最终商品和服务的市场价值"
+      ]
+    },
+    {
+      name: "Inflation",
+      trans: [
+        "n. 通货膨胀，指货币供应量增加导致物价普遍上涨的现象"
+      ]
+    },
+    {
+      name: "Deflation",
+      trans: [
+        "n. 通货紧缩，指货币供应量减少导致物价普遍下跌的现象"
+      ]
+    },
+    {
+      name: "Fiscal policy",
+      trans: [
+        "n. 财政政策，指政府通过税收和支出调节经济的政策"
+      ]
+    },
+    {
+      name: "Monetary policy",
+      trans: [
+        "n. 货币政策，指中央银行通过调整货币供应量和利率来影响经济的政策"
+      ]
+    },
+    {
+      name: "Market share",
+      trans: [
+        "n. 市场份额，指某一公司或品牌在特定市场中所占有的销售比例"
+      ]
+    },
+    {
+      name: "Supply chain",
+      trans: [
+        "n. 供应链，指从原材料采购到产品交付消费者之间的各个环节"
+      ]
+    },
+    {
+      name: "Foreign direct investment (FDI)",
+      trans: [
+        "n. 外商直接投资，指外国公司直接在另一个国家投资并控制业务"
+      ]
+    },
+    {
+      name: "Trade balance",
+      trans: [
+        "n. 贸易平衡，指一国进口和出口之间的差额"
+      ]
+    },
+    {
+      name: "Free trade agreement (FTA)",
+      trans: [
+        "n. 自由贸易协议，指两国或多国之间取消贸易壁垒并促进自由贸易的协议"
+      ]
+    },
+    {
+      name: "Corporate governance",
+      trans: [
+        "n. 公司治理，指公司管理层和股东之间的关系管理及其监督机制"
+      ]
+    },
+    {
+      name: "Mergers and acquisitions (M&A)",
+      trans: [
+        "n. 并购，指两家公司通过合并或收购形成一个新的实体"
+      ]
+    },
+    {
+      name: "Artificial intelligence (AI)",
+      trans: [
+        "n. 人工智能，指机器模拟人类智能的能力，如学习、推理、问题解决等"
+      ]
+    },
+    {
+      name: "Machine learning (ML)",
+      trans: [
+        "n. 机器学习，人工智能的一个子领域，通过数据驱动的算法使机器自我改进"
+      ]
+    },
+    {
+      name: "Blockchain",
+      trans: [
+        "n. 区块链，一种去中心化的分布式账本技术，记录和存储交易数据"
+      ]
+    },
+    {
+      name: "Internet of Things (IoT)",
+      trans: [
+        "n. 物联网，指通过互联网连接和交换数据的物理设备网络"
+      ]
+    },
+    {
+      name: "Big Data",
+      trans: [
+        "n. 大数据，指处理和分析海量数据集合的技术和方法"
+      ]
+    },
+    {
+      name: "Cloud computing",
+      trans: [
+        "n. 云计算，通过互联网提供计算资源和服务，如存储、处理能力等"
+      ]
+    },
+    {
+      name: "Cybersecurity",
+      trans: [
+        "n. 网络安全，指保护计算机系统免受攻击、损坏或非法访问的技术和策略"
+      ]
+    },
+    {
+      name: "Quantum computing",
+      trans: [
+        "n. 量子计算，基于量子力学原理进行信息处理的计算方法"
+      ]
+    },
+    {
+      name: "Nanotechnology",
+      trans: [
+        "n. 纳米技术，指在纳米尺度上操控物质并开发新技术的科学领域"
+      ]
+    },
+    {
+      name: "Renewable energy",
+      trans: [
+        "n. 可再生能源，指自然界能够再生的能源，如太阳能、风能、水能等"
+      ]
+    },
+    {
+      name: "Constitution",
+      trans: [
+        "n. 宪法，国家或组织的基本法律文件，规定政治体制和基本权利"
+      ]
+    },
+    {
+      name: "Legislation",
+      trans: [
+        "n. 立法，制定和通过法律的过程或行为"
+      ]
+    },
+    {
+      name: "Human rights",
+      trans: [
+        "n. 人权，指每个人根据普遍标准应享有的基本自由和权利"
+      ]
+    },
+    {
+      name: "Judicial system",
+      trans: [
+        "n. 司法系统，指处理和裁决法律纠纷的机构和程序"
+      ]
+    },
+    {
+      name: "Political asylum",
+      trans: [
+        "n. 政治庇护，指因害怕迫害而寻求其他国家保护的法律权利"
+      ]
+    },
+    {
+      name: "Diplomatic immunity",
+      trans: [
+        "n. 外交豁免，指外交人员在接待国享有的免受起诉和逮捕的特权"
+      ]
+    },
+    {
+      name: "Rule of law",
+      trans: [
+        "n. 法治，指所有社会成员，包括政府在内，必须遵守法律"
+      ]
+    },
+    {
+      name: "International law",
+      trans: [
+        "n. 国际法，调节国家之间关系的法律体系"
+      ]
+    },
+    {
+      name: "Intellectual property (IP)",
+      trans: [
+        "n. 知识产权，指对发明、创作等成果的法律保护权利"
+      ]
+    },
+    {
+      name: "Arbitration",
+      trans: [
+        "n. 仲裁，指通过第三方来解决争端的法律程序"
+      ]
+    },
+    {
+      name: "Sanctions",
+      trans: [
+        "n. 制裁，指国际上采取的惩罚措施，通常用于违反国际法的行为"
+      ]
+    }
+  ];
+  
+  module.exports = dictionary;
+  
